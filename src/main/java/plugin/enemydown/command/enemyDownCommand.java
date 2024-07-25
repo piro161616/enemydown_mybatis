@@ -218,7 +218,7 @@ public class enemyDownCommand extends BaseCommand implements Listener {
         try(Connection con = DriverManager.getConnection(
             "jdbc:mysql://localhost:3306/spigot_server",
             "root",
-            "minato001");
+            "********");
             Statement statement = con.createStatement()) {
 
           statement.executeUpdate(
